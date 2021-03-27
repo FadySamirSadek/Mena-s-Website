@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "LibreCaslon";
+  src: url("../assets/fonts/LibreCaslonText-Regular.ttf") format("truetype"),
+    url("../assets/fonts/LibreCaslonText-Italic.ttf") format("truetype");
+}
+html,
+body {
+  margin: 0px;
+}
+#container {
+  display: flex;
+  height: 100vh;
+  background: url("../assets/images/homepage/in-a-wonderland.png") no-repeat
+    center center fixed;
+  background-size: cover;
+}
+.work {
+  /*Need to add fallback font*/
+  font-family: "LibreCaslon";
+  font-style: italic;
+  font-size: 3rem;
+}
+.work-item:hover {
+  color: white;
+}
