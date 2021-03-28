@@ -10,13 +10,11 @@ body {
 #container {
   display: flex;
   height: 100vh;
-  background: url("../assets/images/homepage/in-a-wonderland.png") no-repeat
-    center center fixed;
+  background: white no-repeat center center fixed;
   background-size: cover;
 }
 .work {
-  /*Need to add fallback font*/
-  font-family: "LibreCaslon";
+  font-family: "Libre Caslon Text", serif;
   font-style: italic;
   font-size: 3rem;
 }
