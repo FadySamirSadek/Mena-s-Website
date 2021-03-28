@@ -5,19 +5,41 @@
 }
 html,
 body {
+  height: 100%;
+  overflow-y: hidden;
+}
+body {
   margin: 0px;
 }
 #container {
-  display: flex;
-  height: 100vh;
-  background: white no-repeat center center fixed;
-  background-size: cover;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 .work {
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
-  font-size: 3rem;
+  margin: -35px auto auto auto;
+  width: 1080px;
+  max-width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+.work::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.work-item {
+  font-size: 5.5rem;
+  line-height: 0;
+  display: inline-block;
 }
 .work-item:hover {
   color: white;
+}
+.negative {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 40px;
 }
