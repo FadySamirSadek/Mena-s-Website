@@ -43,3 +43,10 @@ body {
   left: 30px;
   width: 40px;
 }
+.about {
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
