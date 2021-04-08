@@ -1,0 +1,80 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+a:link,
+a:visited,
+a:hover {
+  color: black;
+}
+.about {
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+/*About Page*/
+#author-name {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 13rem;
+  font-weight: 400;
+  line-height: 0.9;
+  position: relative;
+  top: 250px;
+  float: right;
+  right: 40px;
+}
+.about-paragraph {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  max-width: 100%;
+  width: 850px;
+  text-align: center;
+  margin: auto;
+  margin-top: 35px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.header-content {
+  max-width: 980px;
+  width: 100%;
+  margin: auto;
+  margin-top: -230px;
+  margin-bottom: 70px;
+}
+.about-img {
+  width: 700px;
+  max-width: 95%;
+}
+.social {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+.instagram {
+  margin-left: 125px;
+}
+.work {
+  margin-left: 400px;
+  margin-bottom: 200px;
+}
+.social-container {
+  width: 650px;
+  margin: auto;
+  max-width: 100%;
+  line-height: 0.5;
+  margin-top: 100px;
+}

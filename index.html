@@ -11,8 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/positive.css" id="pagestyle" />
     <title>MENA ASSAD</title>
   </head>
+
   <body>
     <div id="container">
       <div class="work" id="work">
@@ -23,9 +25,17 @@
         <h1 class="work-item" data-image="studies-in-emotion">
           Studies in Emotion
         </h1>
+        <h1 class="work-item" data-image="at-the-studio">At the Studio</h1>
       </div>
-      <img src="assets/images/icons/Asset 3@2x.png" class="negative" />
-      <span class="about">About</span>
+      <img
+        id="processor-switch"
+        src="assets/images/icons/-ve.png"
+        class="negative"
+        onclick="switchProcessor()"
+      />
+      <a href="./about.html">
+        <span class="about">About</span>
+      </a>
     </div>
     <script src="./script/index.js"></script>
   </body>

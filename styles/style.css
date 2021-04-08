@@ -11,6 +11,26 @@ body {
 body {
   margin: 0px;
 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+a:link,
+a:visited,
+a:hover {
+  color: black;
+}
 #container {
   min-height: 100%;
   overflow-x: hidden;
@@ -35,15 +55,29 @@ body {
   line-height: 0;
   display: inline-block;
 }
-.work-item:hover {
-  color: white;
-}
+
 .negative {
   position: absolute;
   bottom: 30px;
   left: 30px;
   width: 40px;
 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 .about {
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
@@ -51,7 +85,7 @@ body {
   top: 30px;
   right: 30px;
 }
-
+/*End About Page*/
 @media only screen and (max-width: 1250px) and (min-width: 940px) {
   .work-item {
     font-weight: 400;

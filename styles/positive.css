@@ -1,0 +1,11 @@
+a:link,
+a:visited,
+a:hover {
+  color: black;
+}
+#container {
+  background-color: white;
+}
+.work-item:hover {
+  color: white;
+}
