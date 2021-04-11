@@ -8,6 +8,17 @@ body {
   height: 100%;
   overflow-y: hidden;
 }
+body:after{
+    display:none;
+    content: url(../assets/images/homepage/positive/at-the-studio.jpg)
+    url(../assets/images/homepage/positive/Out-of-context.jpg)
+    url(../assets/images/homepage/positive/in-a-wonderland.jpg)
+    url(../assets/images/homepage/positive/studies-in-emotion.jpg);
+    url(../assets/images/homepage/negative/at-the-studio.jpg);
+    url(../assets/images/homepage/positive/Out-of-context.jpg);
+    url(../assets/images/homepage/positive/in-a-wonderland.jpg);
+    url(../assets/images/homepage/positive/studies-in-emotion.jpg);
+}
 body {
   margin: 0px;
 }
