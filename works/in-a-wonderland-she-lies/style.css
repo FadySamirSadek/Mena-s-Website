@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+.parallax-window {
+    min-height:900px;
+    background: transparent;
+}
+.project-title{
+  font-weight: 400;
+  position:relative;
+  top:-700px;
+  font-size: 9rem;
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  line-height: 0.9;
+  color:white;
+  text-align:center;
+  z-index:2;
+}
+.image-row{
+    width: 96%;
+    max-width: 1600px;
+    margin: auto;
+    margin-top:10px;
+}
+.grid-container{
+    position:relative;
+    top:-255px;
+    margin-top: 45px;
+}
+.about-project{
+    max-width:100%;
+  font-family: "Libre Caslon Text", serif;
+  position:relative;
+  top:-340px;
+}
+.left{
+    text-align:right;
+    padding-right:30px;
+}
+.right{
+    text-align:justify;
+    text-justify: inter-word;
+    width:420px;
+    font-style: italic;
+}

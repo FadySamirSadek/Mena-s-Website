@@ -21,7 +21,7 @@
       const currentStatus = localStorage.getItem("processor") || "positive";
       document.getElementById(
         "container"
-      ).style.background = `url('./assets/images/homepage/${currentStatus}/${imageName}.png') no-repeat center center fixed`;
+      ).style.background = `url('./assets/images/homepage/${currentStatus}/${imageName}.jpg') no-repeat center center fixed`;
       document.getElementById("container").style.backgroundSize = "cover";
     });
     item.addEventListener("mouseout", () => {
