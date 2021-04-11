@@ -5,6 +5,11 @@ body {
     min-height:900px;
     background: transparent;
 }
+a:link,
+a:visited,
+a:hover {
+  color: black;
+}
 .project-title{
   font-weight: 400;
   position:relative;
@@ -43,4 +48,11 @@ body {
     text-justify: inter-word;
     width:420px;
     font-style: italic;
+}
+.about {
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }

@@ -1,6 +1,11 @@
 body {
   margin: 0px;
 }
+a:link,
+a:visited,
+a:hover {
+  color: black;
+}
 .parallax-window {
     min-height:900px;
     background: transparent;
@@ -43,4 +48,12 @@ body {
     text-justify: inter-word;
     width:420px;
     font-style: italic;
+}
+.about {
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index:99;
 }
