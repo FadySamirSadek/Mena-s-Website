@@ -72,6 +72,8 @@ a:hover {
   bottom: 30px;
   left: 30px;
   width: 40px;
+  padding:5px;
+  cursor:pointer;
 }
 a:link {
   text-decoration: none;
