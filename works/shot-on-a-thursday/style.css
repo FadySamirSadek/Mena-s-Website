@@ -49,6 +49,9 @@ a:hover {
     width:420px;
     font-style: italic;
 }
+.non-italic{
+  font-style: normal;
+}
 .about {
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
