@@ -95,4 +95,7 @@ a:hover {
 .parallax-window{
   background-position: center top !important;
 }
+  .image-row img {
+    object-fit:cover;
+  }
 }
