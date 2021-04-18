@@ -4,6 +4,13 @@
   outline: none;
   border: 0px;
 }
+
+body:after{
+    display:none;
+    content: url("../assets/images/homepage/mobile/out-of-context.jpeg")
+    url("../assets/images/homepage/mobile/in-a-wonderland.jpg")
+    url("../assets/images/homepage/mobile/shot-on-a-thursday.jpg")
+}
 a:link {
   text-decoration: none;
   color:white;
@@ -59,14 +66,14 @@ a:active {
 .about {
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
 }
 .contact{
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
 }
