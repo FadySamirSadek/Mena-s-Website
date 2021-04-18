@@ -1,8 +1,4 @@
 (function () {
-const md = new MobileDetect(window.navigator.userAgent);
-if (md.mobile() || md.tablet()) {
-    document.location.href = './homepage-mobile.html';
-}
   const workContainer = document.getElementById("work");
   const repeatedElements = workContainer.innerHTML.repeat(100);
   document.getElementById("work").innerHTML = repeatedElements;
