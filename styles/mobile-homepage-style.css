@@ -6,14 +6,14 @@
   background-size: cover;
 }
 .mobile-background-1{
-  background:url('../assets/images/homepage/positive/out-of-context.jpg')  no-repeat center center;
+  background:url('../assets/images/homepage/mobile/out-of-context.jpeg')  no-repeat center center;
   background-size: cover;
 }
 .mobile-background-2{
-  background:url('../assets/images/homepage/positive/in-a-wonderland.jpg') no-repeat center center;
+  background:url('../assets/images/homepage/mobile/in-a-wonderland.jpg') no-repeat center center;
   background-size: cover;
 }
 .mobile-background-3{
-  background:url('../assets/images/homepage/positive/shot-on-a-thursday.jpg') no-repeat center center;
+  background:url('../assets/images/homepage/mobile/shot-on-a-thursday.jpg') no-repeat center center;
   background-size: cover;
 }
