@@ -28,9 +28,7 @@ a:hover {
     margin-top:10px;
 }
 .grid-container{
-    position:relative;
-    top:-255px;
-    margin-top: 45px;
+    margin-top: -230px;
 }
 .about-project{
     max-width:100%;
@@ -56,6 +54,14 @@ a:hover {
   right: 30px;
   z-index: 99;
   color:white;
+}
+.copyrights{
+    text-align:center;
+    font-family:"Libre Caslon Text", serif;
+    font-style: italic;
+    font-size:12px;
+    margin-top:50px;
+    margin-bottom:30px;
 }
 @media only screen and (min-width: 1125px){
   .image-row{
