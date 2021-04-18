@@ -1,0 +1,19 @@
+.mobile-project{
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mobile-background-1{
+  background:url('../assets/images/homepage/positive/out-of-context.jpg')  no-repeat center center;
+  background-size: cover;
+}
+.mobile-background-2{
+  background:url('../assets/images/homepage/positive/in-a-wonderland.jpg') no-repeat center center;
+  background-size: cover;
+}
+.mobile-background-3{
+  background:url('../assets/images/homepage/positive/shot-on-a-thursday.jpg') no-repeat center center;
+  background-size: cover;
+}
