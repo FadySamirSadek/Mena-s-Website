@@ -102,6 +102,7 @@ a:hover {
   background-position: center top !important;
 }
   .image-row img {
+    height:320px;
     object-fit:contain;
   }
 }
