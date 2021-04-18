@@ -78,7 +78,7 @@ a:hover {
   font-size: 4.5rem;
 }
 .about-project{
-  top:-200px;
+  top:10px;
 }
 .about-project div{
   padding-left:50px;
@@ -90,7 +90,7 @@ a:hover {
 @media only screen and (max-width:750px){
 
 .parallax-window{
-  background-position: center top !important;
+  /*background-position: center top !important;*/
 }
 .image-row img {
     object-fit:cover;
