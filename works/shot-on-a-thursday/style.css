@@ -102,6 +102,6 @@ a:hover {
   background-position: center top !important;
 }
   .image-row img {
-   width:100%; 
+   max-width:100%; 
   }
 }
