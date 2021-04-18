@@ -98,6 +98,13 @@ a:active {
   top: 30px;
   right: 30px;
 }
+.contact{
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
 /*End About Page*/
 @media only screen and (max-width: 1250px) and (min-width: 940px) {
   .work-item {

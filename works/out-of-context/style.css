@@ -14,7 +14,6 @@ a:hover {
   font-weight: 400;
   position:relative;
   top:-700px;
-  font-size: 9rem;
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
   line-height: 0.9;
@@ -23,8 +22,8 @@ a:hover {
   z-index:2;
 }
 .image-row{
-    width: 96%;
-    max-width: 1600px;
+    width: 1600px;
+    max-width: 100%;
     margin: auto;
     margin-top:10px;
 }
@@ -37,7 +36,6 @@ a:hover {
     max-width:100%;
   font-family: "Libre Caslon Text", serif;
   position:relative;
-  top:-340px;
 }
 .left{
     text-align:right;
@@ -46,7 +44,8 @@ a:hover {
 .right{
     text-align:justify;
     text-justify: inter-word;
-    width:420px;
+    max-width:420px;
+    width:97%;
     font-style: italic;
 }
 .about {
@@ -57,4 +56,43 @@ a:hover {
   right: 30px;
   z-index: 99;
   color:white;
+}
+@media only screen and (min-width: 1125px){
+  .image-row{
+    margin-top:10px;
+}
+.project-title{
+  font-size: 9rem;
+}
+.about-project{
+  top:-340px;
+}
+}
+
+@media only screen and (max-width:1125px){
+  .image-row img {
+    margin-top: 10px;
+  }
+
+.project-title{
+  font-size: 4.5rem;
+}
+.about-project{
+  top:-200px;
+}
+.about-project div{
+  padding-left:50px;
+}
+.left{
+  text-align: left;
+}
+}
+@media only screen and (max-width:750px){
+
+.parallax-window{
+  background-position: center top !important;
+}
+.image-row img {
+    object-fit:cover;
+  }
 }
