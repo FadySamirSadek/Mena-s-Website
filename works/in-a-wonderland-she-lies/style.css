@@ -99,6 +99,6 @@ a:hover {
   background-position: center top !important;
 }
  .image-row img {
-    object-fit:cover;
-  }
+max-width:100%;  
+ }
 }
