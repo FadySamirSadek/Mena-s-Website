@@ -124,10 +124,10 @@ a:hover {
 }
 @media only screen and (max-width:625px){ 
 .about-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-left: 10px;
   padding-right: 10px;
-  width: 450px;
+  width: 350px;
 }
 .social {
   font-size:1.5rem;
