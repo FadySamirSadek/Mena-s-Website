@@ -26,6 +26,9 @@ a:hover {
     max-width: 100%;
     margin: auto;
 }
+.image-row img {
+  max-width:100%;
+}
 .grid-container{
     margin-top: -230px;
 }
