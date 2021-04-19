@@ -49,8 +49,8 @@ a:hover {
   padding-right: 80px;
 }
 .header-content {
-  max-width: 980px;
-  width: 100%;
+  max-width: 100%;
+  width: 980px;
   margin: auto;
   margin-top: -230px;
   margin-bottom: 70px;
@@ -63,6 +63,7 @@ a:hover {
   font-family: "Libre Caslon Text", serif;
   font-size: 4.5rem;
   font-weight: 400;
+  text-align:center;
 }
 .social-container {
   width: 650px;
@@ -79,4 +80,65 @@ a:hover {
     font-size:12px;
     margin-top:50px;
     margin-bottom:30px;
+}
+@media only screen and (max-width:1120px) and (min-width: 775px){
+.about-paragraph {
+  font-size: 2.2rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 700px;
+}
+.social {
+  font-size:3rem;
+}
+#author-name{
+    font-size: 10rem;
+    top: 225px;
+    float: right;
+    right: 60px;
+}
+.about-img {
+    width: 650px;
+}
+}
+
+@media only screen and (max-width:775px) and (min-width:625px){ 
+.about-paragraph {
+  font-size: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 550px;
+}
+.social {
+  font-size:2rem;
+}
+#author-name{
+    font-size: 6rem;
+    top: 225px;
+    float: right;
+    right: 40px;
+}
+.about-img {
+    width: 400px;
+}
+}
+@media only screen and (max-width:625px){ 
+.about-paragraph {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 450px;
+}
+.social {
+  font-size:1.5rem;
+}
+#author-name{
+    font-size: 6rem;
+    top: 154px;
+    float: right;
+    right: 40px;
+}
+.about-img {
+    width: 300px;
+}
 }
