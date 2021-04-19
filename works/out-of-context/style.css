@@ -33,7 +33,7 @@ a:hover {
     margin-top: -230px;
 }
 .about-project{
-    max-width:100%;
+  max-width:100%;
   font-family: "Libre Caslon Text", serif;
   position:relative;
 }
@@ -86,7 +86,7 @@ a:hover {
   font-size: 4.5rem;
 }
 .about-project{
-  top:-200px;
+  top:-215px;
 }
 .about-project div{
   padding-left:50px;
@@ -98,9 +98,17 @@ a:hover {
 @media only screen and (max-width:750px){
 
 .parallax-window{
-  background-position: center top !important;
+  background-position: -217px top !important;
+    min-height:550px;
 }
 .image-row img {
     object-fit:cover;
   }
+  .project-title{
+   top:-429px !important; 
+   font-size: 3.5rem;
+  }
+  .about-project {
+    top: -150px;
+}
 }
