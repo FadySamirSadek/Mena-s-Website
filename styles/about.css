@@ -35,6 +35,7 @@ a:hover {
   top: 250px;
   float: right;
   right: 40px;
+  font-style: italic;
 }
 .about-paragraph {
   font-family: "Libre Caslon Text", serif;
@@ -92,6 +93,7 @@ a:hover {
   font-size:3rem;
 }
 #author-name{
+      font-family: "Libre Caslon Text", serif;
     font-size: 10rem;
     top: 225px;
     float: right;
@@ -113,6 +115,7 @@ a:hover {
   font-size:2rem;
 }
 #author-name{
+    font-family: "Libre Caslon Text", serif;
     font-size: 6rem;
     top: 225px;
     float: right;
@@ -133,6 +136,7 @@ a:hover {
   font-size:1.5rem;
 }
 #author-name{
+      font-family: "Libre Caslon Text", serif;
     font-size: 5rem;
     top: 175px;
     float: right;
