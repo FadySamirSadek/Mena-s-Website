@@ -31,6 +31,7 @@ a:hover {
 }
 .grid-container{
     margin-top: -230px;
+    text-align: center;
 }
 .about-project{
     max-width:100%;
@@ -90,7 +91,7 @@ a:hover {
 }
 .about-project{
   top:-200px;
-  margin-bottom: 80px;
+  margin-bottom: 52px;
 }
 .about-project div{
   padding-left:50px;
