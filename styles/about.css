@@ -133,12 +133,12 @@ a:hover {
   font-size:1.5rem;
 }
 #author-name{
-    font-size: 6rem;
+    font-size: 5rem;
     top: 154px;
     float: right;
     right: 40px;
 }
 .about-img {
-    width: 300px;
+    width: 250px;
 }
 }
