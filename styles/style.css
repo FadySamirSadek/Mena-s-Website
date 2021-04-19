@@ -72,7 +72,7 @@ a:hover {
   bottom: 30px;
   left: 30px;
   width: 40px;
-  padding:5px;
+  padding:10px !important;
   cursor:pointer;
 }
 a:link {
