@@ -31,6 +31,7 @@ a:hover {
 }
 .grid-container{
     margin-top: -230px;
+    text-align:center;
 }
 .about-project{
     max-width:100%;
@@ -82,9 +83,6 @@ a:hover {
     margin-top: 10px;
   }
 
-.project-title{
-  font-size: 3rem;
-}
 .about-project{
   top:-200px;
 }
@@ -95,16 +93,33 @@ a:hover {
   text-align: left;
 }
 }
-@media only screen and (max-width:750px){
 
+@media only screen and (max-width:1125px) and (min-width:750px){
+.project-title{
+  font-size: 6rem;
+}
 .parallax-window{
   background-position: center top !important;
+}
+.right{
+  margin-top: -150px;
+}
+.about-project {
+    top: -200px;
+    margin-bottom: 50px;
+}}
+@media only screen and (max-width:750px){
+.parallax-window{
+  background-position: center top !important;
+}
+.project-title{
+  font-size: 4rem;
 }
  .image-row img {
 max-width:100%;  
  }
  .about-project{
    top: -185px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
  }
 }
