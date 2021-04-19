@@ -103,4 +103,8 @@ a:hover {
  .image-row img {
 max-width:100%;  
  }
+ .about-project{
+   top: -185px;
+  margin-bottom: 50px;
+ }
 }
