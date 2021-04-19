@@ -127,18 +127,21 @@ a:hover {
   font-size: 1.3rem;
   padding-left: 10px;
   padding-right: 10px;
-  width: 350px;
+  width: 310px;
 }
 .social {
   font-size:1.5rem;
 }
 #author-name{
     font-size: 5rem;
-    top: 154px;
+    top: 175px;
     float: right;
     right: 40px;
 }
 .about-img {
+    margin-top:60px;
     width: 250px;
 }
+.header-content {
+  margin-bottom: 35px;
 }
