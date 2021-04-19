@@ -86,7 +86,8 @@ a:hover {
   font-size: 4.5rem;
 }
 .about-project{
-  top:-215px;
+    top: -205px;
+    margin-bottom: 30px;
 }
 .about-project div{
   padding-left:50px;
