@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+    <script src="./script/check-for-mobile.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HKG8JZMQXB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
-  <script src="./script/check-for-mobile.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@1&display=swap" rel="stylesheet" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKG8JZMQXB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {dataLayer.push(arguments);}
-    gtag('js', new Date());
+      gtag("config", "G-HKG8JZMQXB");
+    </script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/positive.css" id="pagestyle" />
+    <title>MENA ASSAD</title>
+  </head>
 
-    gtag('config', 'G-HKG8JZMQXB');
-  </script>
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/positive.css" id="pagestyle" />
-  <title>MENA ASSAD</title>
-</head>
-
-<body>
-  <div id="container">
-    <div class="work" id="work">
-      <a href="works/in-a-wonderland-she-lies/index.html">
-        <h1 class="work-item" data-image="in-a-wonderland">
-          In A Wonderland She Lies
-        </h1>
+  <body>
+    <div id="container">
+      <div class="work" id="work">
+        <a href="works/in-a-wonderland-she-lies/index.html">
+          <h1 class="work-item" data-image="in-a-wonderland">
+            In A Wonderland She Lies
+          </h1>
+        </a>
+        <a href="works/out-of-context/index.html">
+          <h1 class="work-item" data-image="out-of-context">Out of Context</h1>
+        </a>
+        <a href="works/studies-in-emotion/index.html">
+          <h1 class="work-item" data-image="studies-in-emotion">
+            Studies in Emotion
+          </h1>
+        </a>
+        <a href="works/shot-on-a-thursday/index.html">
+          <h1 class="work-item" data-image="shot-on-a-thursday">
+            Shot on a Thursday
+          </h1>
+        </a>
+      </div>
+      <img
+        id="processor-switch"
+        src="assets/images/icons/-ve.png"
+        class="negative"
+        onclick="switchProcessor()"
+      />
+      <a href="./about.html">
+        <span class="about">About</span>
       </a>
-      <a href="works/out-of-context/index.html">
-        <h1 class="work-item" data-image="out-of-context">Out of Context</h1>
-      </a>
-      <a href="works/studies-in-emotion/index.html">
-        <!-- <h1 class="work-item" data-image="studies-in-emotion">
-          Studies in Emotion
-       </h1>-->
-      </a>
-      <a href="works/shot-on-a-thursday/index.html">
-        <h1 class="work-item" data-image="shot-on-a-thursday">
-          Shot on a Thursday
-        </h1>
+      <a href="mailto:info@menaassad.com?subject=Website Inquiry">
+        <span class="contact">Contact</span>
       </a>
     </div>
-    <img id="processor-switch" src="assets/images/icons/-ve.png" class="negative" onclick="switchProcessor()" />
-    <a href="./about.html">
-      <span class="about">About</span>
-    </a>
-    <a href="mailto:info@menaassad.com?subject=Website Inquiry">
-      <span class="contact">Contact</span>
-    </a>
-  </div>
-  <script src="./script/index.js"></script>
-</body>
-
+    <script src="./script/index.js"></script>
+  </body>
 </html>
