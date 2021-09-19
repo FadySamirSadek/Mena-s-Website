@@ -1,36 +1,37 @@
 * {
   margin: 0px;
-  padding: 0px; 
+  padding: 0px;
   outline: none;
   border: 0px;
 }
 
-body:after{
-    display:none;
-    content: url("../assets/images/homepage/mobile/out-of-context.jpeg")
+body:after {
+  display: none;
+  content: url("../assets/images/homepage/mobile/out-of-context.jpeg")
     url("../assets/images/homepage/mobile/in-a-wonderland.jpg")
     url("../assets/images/homepage/mobile/shot-on-a-thursday.jpg")
+    url("../assets/images/homepage/mobile/studies-in-emotion.jpg");
 }
 a:link {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 a:active {
   text-decoration: none;
-  color:white;
+  color: white;
 }
-.mobile-project{
+.mobile-project {
   height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -38,30 +39,38 @@ a:active {
   background-size: cover;
   text-align: center;
 }
-.mobile-background-1{
-  background:url('../assets/images/homepage/mobile/out-of-context.jpeg')  no-repeat center center;
+.mobile-background-1 {
+  background: url("../assets/images/homepage/mobile/out-of-context.jpeg")
+    no-repeat center center;
   background-size: cover;
 }
-.mobile-background-2{
-  background:url('../assets/images/homepage/mobile/in-a-wonderland.jpg') no-repeat center center;
+.mobile-background-2 {
+  background: url("../assets/images/homepage/mobile/in-a-wonderland.jpg")
+    no-repeat center center;
   background-size: cover;
 }
-.mobile-background-3{
-  background:url('../assets/images/homepage/mobile/shot-on-a-thursday.jpg') no-repeat center center;
+.mobile-background-3 {
+  background: url("../assets/images/homepage/mobile/shot-on-a-thursday.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+.mobile-background-4 {
+  background: url("../assets/images/homepage/mobile/studies-in-emotion.jpg")
+    no-repeat center center;
   background-size: cover;
 }
 
-.project-title{
+.project-title {
   font-weight: 400;
   font-size: 3rem;
   line-height: 0.8;
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
-  color:white;
-  text-align:center;
-  z-index:2;
-  position:relative;
-  top:105px;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  top: 105px;
 }
 .about {
   font-family: "Libre Caslon Text", serif;
@@ -70,7 +79,7 @@ a:active {
   top: 20px;
   left: 20px;
 }
-.contact{
+.contact {
   font-family: "Libre Caslon Text", serif;
   font-style: italic;
   position: fixed;
