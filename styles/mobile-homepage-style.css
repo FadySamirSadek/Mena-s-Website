@@ -40,8 +40,8 @@ a:active {
   text-align: center;
 }
 .mobile-background-1 {
-  background: url("../assets/images/homepage/mobile/out-of-context.jpeg")
-    no-repeat center center;
+  background: url("../assets/images/homepage/mobile/tabula-rasa.jpg") no-repeat
+    center center;
   background-size: cover;
 }
 .mobile-background-2 {
