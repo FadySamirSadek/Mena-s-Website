@@ -10,7 +10,8 @@ body:after {
   content: url("../assets/images/homepage/mobile/out-of-context.jpeg")
     url("../assets/images/homepage/mobile/in-a-wonderland.jpg")
     url("../assets/images/homepage/mobile/shot-on-a-thursday.jpg")
-    url("../assets/images/homepage/mobile/studies-in-emotion.jpg");
+    url("../assets/images/homepage/mobile/studies-in-emotion.jpg")
+    url("../assets/images/homepage/mobile/mena_30_6_2022_3-1.jpg");
 }
 a:link {
   text-decoration: none;
@@ -56,6 +57,11 @@ a:active {
 }
 .mobile-background-4 {
   background: url("../assets/images/homepage/mobile/studies-in-emotion.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+.mobile-background-5 {
+  background: url("../assets/images/homepage/mobile/mena_30_6_2022_3-1.jpg")
     no-repeat center center;
   background-size: cover;
 }
